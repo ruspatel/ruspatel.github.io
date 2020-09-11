@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar.js';
 import About from './Components/About.js';
 import Experience from './Components/Experience';
+import Project from './Components/Project';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <About/>
       <Experience/>
+      <Project/>
     </MainBox>
   );
 }
