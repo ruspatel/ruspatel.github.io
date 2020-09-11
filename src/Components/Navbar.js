@@ -22,7 +22,7 @@ const StyledNavBar = styled.div`
     justify-content: flex-end;
     margin-top: 0px;
     background-color: cyan;
-    position:fixed;
+    // position:fixed;
     width: 100%;
 `;
 
