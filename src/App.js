@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import './App.css';
 import Navbar from './Components/Navbar.js';
 import About from './Components/About.js';
+import Experience from './Components/Experience';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <MainBox>
       <Navbar/>
       <About/>
+      <Experience/>
     </MainBox>
   );
 }
@@ -20,4 +22,5 @@ const MainBox = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
 export default App;

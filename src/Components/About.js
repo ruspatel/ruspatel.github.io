@@ -6,7 +6,12 @@ const About = () => {
 
     return(
         <AboutBox>
-            <h1>about section</h1>
+            <AboutText>
+                <h1>Hi, my name is Rushil. I am a software engineer.
+                Hi, my name is Rushil. I am a software engineer.
+                Hi, my name is Rushil. I am a software engineer.
+                </h1>
+            </AboutText>
         </AboutBox>
     );
 }
@@ -14,7 +19,10 @@ const About = () => {
 const AboutBox = styled.div`
     background-color: green;
     // margin-top: 10px;
+`;
 
+const AboutText = styled.div`
+    width: 50%;
 `;
 
 export default About;

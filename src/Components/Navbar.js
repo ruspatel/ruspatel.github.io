@@ -19,7 +19,7 @@ const Navbar = () => {
 const StyledNavBar = styled.div`
     padding: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-top: 0px;
     background-color: cyan;
     // position:fixed;
