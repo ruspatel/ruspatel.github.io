@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, {useState} from 'react';
 import Coop from './Coop';
 import csfImg from '../Images/csf.png';
 import clearbridgemobile from '../Images/clearbridgemobile.png';
@@ -15,7 +15,14 @@ const Experience = () => {
         {companyName: 'Canadian Sheep Federation', position: 'Full Stack Developer', duration: 'July 2020 - Sept 2020', img: csfImg, description: 'hello world' },
         {companyName: 'Clearbridge Mobile', position: 'QA Developer', duration: 'July 2020 - Sept 2020', img: clearbridgemobile, description: 'hello world' },
         {companyName: 'Economical Insurance', position: 'Security Analyst', duration: 'July 2020 - Sept 2020', img: economical, description: 'hello world' },
-    ]
+    ];
+
+    const [windowSize, setWindowSize] = useState(0);
+
+    if (window.innerHeight !== windowSize) {
+		setWindowSize(window.innerHeight);
+		console.log('the window size is', window.innerHeight);
+	}
 
     return(
         <ExperienceBox>

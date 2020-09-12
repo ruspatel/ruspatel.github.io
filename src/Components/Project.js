@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, {useState} from 'react';
 import androidstudio from '../Images/androidstudio.png';
 import ProjectEntry from './ProjectEntry';
 import reactlogo from '../Images/reactlogo.png';
@@ -19,7 +19,16 @@ const Project = () => {
         query the weather from different cities `, img: reactlogo, link: 'https://github.com/ruspatel'},
         { name: 'Whats the Weather App', tools: 'Android Studio | Java', description: `My first android app. Created to
         query the weather from different cities `, img: androidstudio, link: 'https://github.com/ruspatel' },
-    ]
+    ];
+
+
+    const [windowSize, setWindowSize] = useState(0);
+
+    if (window.innerHeight !== windowSize) {
+        let num = window.innerHeight;
+		setWindowSize(num);
+		console.log('the window size is', window.innerHeight);
+	}
     return(
         <ProjectBox>
             <Element id="projectId">

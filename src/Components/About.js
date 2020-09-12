@@ -1,12 +1,18 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, {useState} from 'react';
 import {Header} from './CommonComponents';
 import {Element} from 'react-scroll';
 
 
 const About = () => {
+    const [windowSize, setWindowSize] = useState(0);
 
+    if (window.innerHeight !== windowSize) {
+		setWindowSize(window.innerHeight);
+		console.log('the window size is', window.innerHeight);
+	}
     return(
+        // <AboutBox style={{"height": `${windowSize}px`}}>
         <AboutBox>
             <Element id="aboutId">
                 <Header style={{"margin-top": "75px"}}>About</Header>
@@ -26,6 +32,8 @@ const AboutBox = styled.div`
     margin: auto;
     align-items: center;
     // justify-content: center;
+    // height: 969px;
+    padding: 10px;
 
 `;
 
