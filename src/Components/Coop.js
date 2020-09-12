@@ -11,7 +11,7 @@ const Coop = ({companyName, position, duration, img, description}) => {
             <Details>
                 <CoopTitle>{companyName}</CoopTitle>
                 <CoopPosition>{position}</CoopPosition>
-                <CoopPosition>{duration}</CoopPosition>
+                <CoopDuration>{duration}</CoopDuration>
                 <Description>{description}</Description>
             </Details>
         </CoopCard>
@@ -20,10 +20,10 @@ const Coop = ({companyName, position, duration, img, description}) => {
 
 const CoopCard = styled.div`
     display: flex;
-    background-color: pink;
+    // background-color: pink;
     // margin-top: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 `;
 
 const ExperienceCard = styled.div`
@@ -34,6 +34,8 @@ const ExperienceCard = styled.div`
 
 const CoopTitle = styled.div`
     font-size: 40px;
+    font-weight: bold;
+    color: #4d4d4d;
 `;
 
 const StyledLogo = styled.img`
@@ -43,6 +45,12 @@ const StyledLogo = styled.img`
 
 const CoopPosition = styled.div`
     font-size: 20px;
+    font-weight: bold;
+`;
+
+const CoopDuration = styled.div`
+    font-size: 15px;
+    font-weight: bold;
 `;
 
 const Details = styled.div`

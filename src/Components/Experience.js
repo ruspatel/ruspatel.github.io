@@ -4,6 +4,9 @@ import Coop from './Coop';
 import csfImg from '../Images/csf.png';
 import clearbridgemobile from '../Images/clearbridgemobile.png';
 import economical from '../Images/economical.jpeg';
+import {Header} from './CommonComponents';
+import {Element} from 'react-scroll';
+
 
 
 
@@ -17,7 +20,9 @@ const Experience = () => {
     return(
         <ExperienceBox>
             <ExperienceCard>
-                <Title>Experience</Title>
+                <Element id='experienceId'>
+                    <Header>Experience</Header>
+                </Element>
                 {coops.map((coop) => (
                     <Coop companyName={coop.companyName} position={coop.position} duration={coop.duration} img={coop.img} description={coop.description}/>
                 ))}
@@ -27,15 +32,18 @@ const Experience = () => {
 }
 
 const ExperienceBox = styled.div`
-    background-color: pink;
+    // background-color: pink;
     // margin-top: 10px;
     margin: auto;
+    width: 1000px;
+
 `;
 
 const ExperienceCard = styled.div`
-    margin: auto;
-    background-color: purple;
-    width: 1000px;
+    // display: flex;
+    // margin: auto;
+    // background-color: purple;
+    // width: 1000px;
 `;
 
 const Title = styled.div`

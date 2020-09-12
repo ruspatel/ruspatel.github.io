@@ -1,28 +1,39 @@
 import styled from 'styled-components';
 import React from 'react';
+import {Header} from './CommonComponents';
+import {Element} from 'react-scroll';
 
 
 const About = () => {
 
     return(
         <AboutBox>
+            <Element id="aboutId">
+                <Header style={{"margin-top": "75px"}}>About</Header>
+            </Element>
             <AboutText>
-                <h1>Hi, my name is Rushil. I am a software engineer.
-                Hi, my name is Rushil. I am a software engineer.
-                Hi, my name is Rushil. I am a software engineer.
-                </h1>
+                Hi, I'm Rushil! 👋 I'm a second year student at the University of Waterloo in Computer Engineering. 
+                I am always looking to learn more about tech. I've had several internships and also worked on many projects. Check them out below!
             </AboutText>
         </AboutBox>
     );
 }
 
 const AboutBox = styled.div`
-    background-color: green;
-    // margin-top: 10px;
+    // background-color: green;
+    // display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    // justify-content: center;
+
 `;
 
 const AboutText = styled.div`
-    width: 50%;
+    // margin: auto;
+    font-size: 30px;
+    line-height: 1.7;
+
 `;
 
 export default About;

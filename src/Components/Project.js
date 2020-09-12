@@ -2,52 +2,40 @@ import styled from 'styled-components';
 import React from 'react';
 import androidstudio from '../Images/androidstudio.png';
 import ProjectEntry from './ProjectEntry';
+import reactlogo from '../Images/reactlogo.png';
+import {Header} from './CommonComponents';
+import {Element} from 'react-scroll';
+
+
 
 
 const Project = () => {
     const projects = [
         { name: 'Whats the Weather App', tools: 'Android Studio | Java', description: `My first android app. Created to
-        query the weather from different cities `, img: androidstudio },
-        { name: 'Trivia Web App', tools: 'React | JavaScript', description: ''},
-
+        query the weather from different cities `, img: androidstudio, link: 'https://github.com/ruspatel' },
+        { name: 'Trivia Web App', tools: 'React | JavaScript', description: `My first android app. Created to
+        query the weather from different cities `, img: reactlogo, link: 'https://github.com/ruspatel'},
+        { name: 'Trivia Web App', tools: 'React | JavaScript', description: `My first android app. Created to
+        query the weather from different cities `, img: reactlogo, link: 'https://github.com/ruspatel'},
+        { name: 'Whats the Weather App', tools: 'Android Studio | Java', description: `My first android app. Created to
+        query the weather from different cities `, img: androidstudio, link: 'https://github.com/ruspatel' },
     ]
     return(
-        // <ProjectBox>
-        //     <ProjectCard>
-        //         <Title>Projects</Title>
-        //         {projects.map((project) => (
-        //             <div>
-        //                 {/* <ProjectTitle>{project.name}</ProjectTitle>
-        //                 <ProjectTools>{project.tools}</ProjectTools> */}
-        //                 <CoopCard>
-        //                     <StyledLogo src={project.img}/>
-        //                     <Details>
-        //                         <CoopTitle>{project.name}</CoopTitle>
-        //                         <CoopPosition>{project.tools}</CoopPosition>
-        //                         <Description>{project.description}</Description>
-        //                     </Details>
-        //                 </CoopCard>
-        //             </div>
-        //         ))}
-        //     </ProjectCard>
-        // </ProjectBox>
-
-
         <ProjectBox>
-            <Title>Projects</Title>
+            <Element id="projectId">
+                <Header>Projects</Header>
+            </Element>
                 <ProjectCards>
-                    <ProjectEntry/>
-                    <ProjectEntry/>
-                    <br/>
-                    <ProjectEntry/>
-                    <ProjectEntry/>
+                    {projects.map((project) => (
+                        <ProjectEntry name={project.name} tools={project.tools} img={project.img} description={project.description} githubLink={project.link} />
+                    ))}
                 </ProjectCards>
         </ProjectBox>
     );
 }
 
 const ProjectBox = styled.div`
-    background-color: lightgreen;
+    // background-color: lightgreen;
     // margin-top: 10px;
     margin: auto;
     width: 1000px;
@@ -69,6 +57,7 @@ const Title = styled.div`
     font-size: 40px;
     color: navy;
     margin: auto;
+    margin-bottom: 10px;
 `;
 
 const ProjectCard = styled.div`
