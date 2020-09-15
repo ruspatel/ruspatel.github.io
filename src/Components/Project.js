@@ -3,6 +3,9 @@ import React, {useState} from 'react';
 import androidstudio from '../Images/androidstudio.png';
 import ProjectEntry from './ProjectEntry';
 import reactlogo from '../Images/reactlogo.png';
+import question from '../Images/question.png';
+import titanic from '../Images/titanic.png';
+import web from '../Images/web.png';
 import {Header} from './CommonComponents';
 import {Element} from 'react-scroll';
 
@@ -11,14 +14,14 @@ import {Element} from 'react-scroll';
 
 const Project = () => {
     const projects = [
-        { name: 'Whats the Weather App', tools: 'Android Studio | Java', description: `My first android app. Created to
+        { name: 'Whats the Weather App', tools: 'Android Studio | Java |', description: `My first android app. Created to
         query the weather from different cities `, img: androidstudio, link: 'https://github.com/ruspatel' },
-        { name: 'Trivia Web App', tools: 'React | JavaScript', description: `My first android app. Created to
-        query the weather from different cities `, img: reactlogo, link: 'https://github.com/ruspatel'},
-        { name: 'Trivia Web App', tools: 'React | JavaScript', description: `My first android app. Created to
-        query the weather from different cities `, img: reactlogo, link: 'https://github.com/ruspatel'},
-        { name: 'Whats the Weather App', tools: 'Android Studio | Java', description: `My first android app. Created to
-        query the weather from different cities `, img: androidstudio, link: 'https://github.com/ruspatel' },
+        { name: 'Trivia Web App', tools: 'React | JavaScript |', description: `My first android app. Created to
+        query the weather from different cities `, img: question, link: 'https://github.com/ruspatel'},
+        { name: 'Titanic Prediction ', tools: 'Python | Keras | Matplotlib', description: `A deep learning model made with Keras to predict
+        passenger survival on Titanic from Kaggle dataset`, img: titanic, link: 'https://github.com/ruspatel'},
+        { name: 'Personal Website', tools: 'React | Styled Compnents | JavaScript', description: `Created this website in a span of couple
+        days to practice web dev`, img: reactlogo, link: 'https://github.com/ruspatel' },
     ];
 
 
