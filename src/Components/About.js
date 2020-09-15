@@ -10,7 +10,7 @@ const About = () => {
 		setWindowSize(window.innerHeight);
 		console.log('the window size is', window.innerHeight);
 	}
-    return(
+    return (
         // <AboutBox style={{"height": `${windowSize}px`}}>
         <AboutBox>
             <Element id="aboutId">

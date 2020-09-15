@@ -28,7 +28,7 @@ const Experience = () => {
 		console.log('the window size is', window.innerHeight);
 	}
 
-    return(
+    return (
         <ExperienceBox>
             <ExperienceCard>
                 <Element id='experienceId'>

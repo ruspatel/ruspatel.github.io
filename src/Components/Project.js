@@ -32,7 +32,7 @@ const Project = () => {
 		setWindowSize(num);
 		console.log('the window size is', window.innerHeight);
 	}
-    return(
+    return (
         <ProjectBox>
             <Element id="projectId">
                 <Header>Projects</Header>

@@ -5,7 +5,7 @@ import csfImg from '../Images/csf.png';
 
 const Coop = ({companyName, position, duration, img, description}) => {
 
-    return(
+    return (
         <CoopCard>
             <StyledLogo src={img}/>
             <Details>

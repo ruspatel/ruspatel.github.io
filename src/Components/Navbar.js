@@ -16,7 +16,7 @@ const Navbar = () => {
         )
     }
 
-    return(
+    return (
         <div>
             <StyledNavBar>
                 <NavLink onClick={() => scrollTo('aboutId')}>About</NavLink>

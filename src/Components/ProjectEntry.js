@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ProjectEntry = ({name, tools, img, description, githubLink}) => {
 
 
-    return(
+    return (
         <div>
             <ProjectEntryCard>
                 <ProjectTitle>{name}</ProjectTitle>
