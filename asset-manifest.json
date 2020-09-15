@@ -1,25 +1,28 @@
 {
   "files": {
     "main.css": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ruspatel.github.io/static/js/main.40a90f3a.chunk.js",
-    "main.js.map": "/ruspatel.github.io/static/js/main.40a90f3a.chunk.js.map",
+    "main.js": "/ruspatel.github.io/static/js/main.732ac8c7.chunk.js",
+    "main.js.map": "/ruspatel.github.io/static/js/main.732ac8c7.chunk.js.map",
     "runtime-main.js": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js",
     "runtime-main.js.map": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js.map",
-    "static/js/2.f7097862.chunk.js": "/ruspatel.github.io/static/js/2.f7097862.chunk.js",
-    "static/js/2.f7097862.chunk.js.map": "/ruspatel.github.io/static/js/2.f7097862.chunk.js.map",
+    "static/js/2.9d808771.chunk.js": "/ruspatel.github.io/static/js/2.9d808771.chunk.js",
+    "static/js/2.9d808771.chunk.js.map": "/ruspatel.github.io/static/js/2.9d808771.chunk.js.map",
     "index.html": "/ruspatel.github.io/index.html",
-    "precache-manifest.ddbaccbfaa7d492eeb1e37cc61d39016.js": "/ruspatel.github.io/precache-manifest.ddbaccbfaa7d492eeb1e37cc61d39016.js",
+    "precache-manifest.e1c0f40712e97310246db219bc6b59ba.js": "/ruspatel.github.io/precache-manifest.e1c0f40712e97310246db219bc6b59ba.js",
     "service-worker.js": "/ruspatel.github.io/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f7097862.chunk.js.LICENSE.txt": "/ruspatel.github.io/static/js/2.f7097862.chunk.js.LICENSE.txt",
+    "static/js/2.9d808771.chunk.js.LICENSE.txt": "/ruspatel.github.io/static/js/2.9d808771.chunk.js.LICENSE.txt",
     "static/media/androidstudio.png": "/ruspatel.github.io/static/media/androidstudio.9a1f011d.png",
     "static/media/economical.jpeg": "/ruspatel.github.io/static/media/economical.adb6bf19.jpeg",
-    "static/media/reactlogo.png": "/ruspatel.github.io/static/media/reactlogo.2fc258b1.png"
+    "static/media/question.png": "/ruspatel.github.io/static/media/question.effa30cb.png",
+    "static/media/reactlogo.png": "/ruspatel.github.io/static/media/reactlogo.360a0ef4.png",
+    "static/media/titanic.png": "/ruspatel.github.io/static/media/titanic.e55a939c.png",
+    "static/media/web.png": "/ruspatel.github.io/static/media/web.9dbe0158.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6d24a601.js",
-    "static/js/2.f7097862.chunk.js",
+    "static/js/2.9d808771.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.40a90f3a.chunk.js"
+    "static/js/main.732ac8c7.chunk.js"
   ]
 }
