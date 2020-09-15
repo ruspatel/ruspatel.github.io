@@ -1,8 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import androidstudio from '../Images/androidstudio.png';
-
 
 
 const ProjectEntry = ({name, tools, img, description, githubLink}) => {
@@ -15,11 +12,9 @@ const ProjectEntry = ({name, tools, img, description, githubLink}) => {
                 <ProjectTools>{tools}</ProjectTools>
                 <StyledLogo src={img}/>
                 <ProjectDescription>{description}</ProjectDescription>
-                {/* <Link to='https://github.com/ruspatel'> */}
                 <StyledButton onClick={() => window.open(githubLink)} >
                     Github
                 </StyledButton>
-                {/* </Link> */}
             </ProjectEntryCard>
         </div>
     );
