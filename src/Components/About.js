@@ -11,7 +11,6 @@ const About = () => {
 		console.log('the window size is', window.innerHeight);
 	}
     return (
-        // <AboutBox style={{"height": `${windowSize}px`}}>
         <AboutBox>
             <Element id="aboutId">
                 <Header style={{"margin-top": "75px"}}>About</Header>

@@ -34,9 +34,11 @@ const Experience = () => {
                 <Element id='experienceId'>
                     <Header>Experience</Header>
                 </Element>
-                {coops.map((coop) => (
-                    <Coop companyName={coop.companyName} position={coop.position} duration={coop.duration} img={coop.img} description={coop.description}/>
-                ))}
+                {coops.map((coop) => {
+                    return(
+                        <Coop companyName={coop.companyName} position={coop.position} duration={coop.duration} img={coop.img} description={coop.description}/>  
+                    );
+                })}
             </ExperienceCard>
         </ExperienceBox>
     );

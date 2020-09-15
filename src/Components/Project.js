@@ -38,9 +38,11 @@ const Project = () => {
                 <Header>Projects</Header>
             </Element>
                 <ProjectCards>
-                    {projects.map((project) => (
-                        <ProjectEntry name={project.name} tools={project.tools} img={project.img} description={project.description} githubLink={project.link} />
-                    ))}
+                    {projects.map((project) => {
+                        return(
+                            <ProjectEntry name={project.name} tools={project.tools} img={project.img} description={project.description} githubLink={project.link} />
+                        );
+                    })}
                 </ProjectCards>
         </ProjectBox>
     );

@@ -9,7 +9,6 @@ const Navbar = () => {
         scroller.scrollTo(id,{
             duration: 1500,
             delay: 10,
-        //   smooth: 'easeInOutQuart'
             smooth: true
         },
         
