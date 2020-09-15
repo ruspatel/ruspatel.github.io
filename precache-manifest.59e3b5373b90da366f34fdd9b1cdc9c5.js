@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c9af275f060c0b4d971c9a1ada0bfdb",
+    "revision": "64911d69f11c942ca3caf2825ef4061b",
     "url": "/ruspatel.github.io/index.html"
   },
   {
-    "revision": "309ee82f0e4b8952b0ae",
+    "revision": "183eea8e299c1963b5bc",
     "url": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "53195d9a3b0c8e5fde27",
-    "url": "/ruspatel.github.io/static/js/2.9d808771.chunk.js"
+    "revision": "0922826072f105226dcd",
+    "url": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ruspatel.github.io/static/js/2.9d808771.chunk.js.LICENSE.txt"
+    "url": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "309ee82f0e4b8952b0ae",
-    "url": "/ruspatel.github.io/static/js/main.732ac8c7.chunk.js"
+    "revision": "183eea8e299c1963b5bc",
+    "url": "/ruspatel.github.io/static/js/main.7def474e.chunk.js"
   },
   {
     "revision": "e201c686b34d86556472",

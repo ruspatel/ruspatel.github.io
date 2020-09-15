@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ruspatel.github.io/static/js/main.732ac8c7.chunk.js",
-    "main.js.map": "/ruspatel.github.io/static/js/main.732ac8c7.chunk.js.map",
+    "main.js": "/ruspatel.github.io/static/js/main.7def474e.chunk.js",
+    "main.js.map": "/ruspatel.github.io/static/js/main.7def474e.chunk.js.map",
     "runtime-main.js": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js",
     "runtime-main.js.map": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js.map",
-    "static/js/2.9d808771.chunk.js": "/ruspatel.github.io/static/js/2.9d808771.chunk.js",
-    "static/js/2.9d808771.chunk.js.map": "/ruspatel.github.io/static/js/2.9d808771.chunk.js.map",
+    "static/js/2.f4cf05a6.chunk.js": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js",
+    "static/js/2.f4cf05a6.chunk.js.map": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js.map",
     "index.html": "/ruspatel.github.io/index.html",
-    "precache-manifest.e1c0f40712e97310246db219bc6b59ba.js": "/ruspatel.github.io/precache-manifest.e1c0f40712e97310246db219bc6b59ba.js",
+    "precache-manifest.59e3b5373b90da366f34fdd9b1cdc9c5.js": "/ruspatel.github.io/precache-manifest.59e3b5373b90da366f34fdd9b1cdc9c5.js",
     "service-worker.js": "/ruspatel.github.io/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.9d808771.chunk.js.LICENSE.txt": "/ruspatel.github.io/static/js/2.9d808771.chunk.js.LICENSE.txt",
+    "static/js/2.f4cf05a6.chunk.js.LICENSE.txt": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js.LICENSE.txt",
     "static/media/androidstudio.png": "/ruspatel.github.io/static/media/androidstudio.9a1f011d.png",
     "static/media/economical.jpeg": "/ruspatel.github.io/static/media/economical.adb6bf19.jpeg",
     "static/media/question.png": "/ruspatel.github.io/static/media/question.effa30cb.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6d24a601.js",
-    "static/js/2.9d808771.chunk.js",
+    "static/js/2.f4cf05a6.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.732ac8c7.chunk.js"
+    "static/js/main.7def474e.chunk.js"
   ]
 }
