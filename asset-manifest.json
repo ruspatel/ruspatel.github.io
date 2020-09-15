@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ruspatel.github.io/static/js/main.2b2b2387.chunk.js",
-    "main.js.map": "/ruspatel.github.io/static/js/main.2b2b2387.chunk.js.map",
-    "runtime-main.js": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js",
-    "runtime-main.js.map": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js.map",
-    "static/js/2.b6fc1c7f.chunk.js": "/ruspatel.github.io/static/js/2.b6fc1c7f.chunk.js",
-    "static/js/2.b6fc1c7f.chunk.js.map": "/ruspatel.github.io/static/js/2.b6fc1c7f.chunk.js.map",
-    "index.html": "/ruspatel.github.io/index.html",
-    "precache-manifest.eed9be564c048bad3118a9f9d6575e20.js": "/ruspatel.github.io/precache-manifest.eed9be564c048bad3118a9f9d6575e20.js",
-    "service-worker.js": "/ruspatel.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b6fc1c7f.chunk.js.LICENSE.txt": "/ruspatel.github.io/static/js/2.b6fc1c7f.chunk.js.LICENSE.txt",
-    "static/media/androidstudio.png": "/ruspatel.github.io/static/media/androidstudio.9a1f011d.png",
-    "static/media/economical.jpeg": "/ruspatel.github.io/static/media/economical.adb6bf19.jpeg",
-    "static/media/reactlogo.png": "/ruspatel.github.io/static/media/reactlogo.2fc258b1.png"
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.0d32ba55.chunk.js",
+    "main.js.map": "/static/js/main.0d32ba55.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
+    "static/js/2.901ca234.chunk.js": "/static/js/2.901ca234.chunk.js",
+    "static/js/2.901ca234.chunk.js.map": "/static/js/2.901ca234.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4124debb59e926a38f463f1f02261904.js": "/precache-manifest.4124debb59e926a38f463f1f02261904.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.901ca234.chunk.js.LICENSE.txt": "/static/js/2.901ca234.chunk.js.LICENSE.txt",
+    "static/media/androidstudio.png": "/static/media/androidstudio.9a1f011d.png",
+    "static/media/economical.jpeg": "/static/media/economical.adb6bf19.jpeg",
+    "static/media/question.png": "/static/media/question.effa30cb.png",
+    "static/media/reactlogo.png": "/static/media/reactlogo.360a0ef4.png",
+    "static/media/titanic.png": "/static/media/titanic.e55a939c.png",
+    "static/media/web.png": "/static/media/web.9dbe0158.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d24a601.js",
-    "static/js/2.b6fc1c7f.chunk.js",
+    "static/js/runtime-main.9b126251.js",
+    "static/js/2.901ca234.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2b2b2387.chunk.js"
+    "static/js/main.0d32ba55.chunk.js"
   ]
 }
