@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0927211b3ee77b2817a38f2ea2a14f8e",
+    "revision": "4b94f2d172f4b7b45dea6361541b42c2",
     "url": "/ruspatel.github.io/index.html"
   },
   {
-    "revision": "f6f81e7bd71a6728c35a",
+    "revision": "757819f399c3840d7ec9",
     "url": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "0922826072f105226dcd",
-    "url": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js"
+    "revision": "0f9f5e549855b97aae88",
+    "url": "/ruspatel.github.io/static/js/2.b2e6d629.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ruspatel.github.io/static/js/2.f4cf05a6.chunk.js.LICENSE.txt"
+    "url": "/ruspatel.github.io/static/js/2.b2e6d629.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6f81e7bd71a6728c35a",
-    "url": "/ruspatel.github.io/static/js/main.e23d0ef0.chunk.js"
+    "revision": "757819f399c3840d7ec9",
+    "url": "/ruspatel.github.io/static/js/main.37d58bb1.chunk.js"
   },
   {
     "revision": "e201c686b34d86556472",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "360a0ef4666dcbbd62d979e7100b4a6d",
     "url": "/ruspatel.github.io/static/media/reactlogo.360a0ef4.png"
+  },
+  {
+    "revision": "f7cf08780fe000c40cfbdc672d268c5e",
+    "url": "/ruspatel.github.io/static/media/resume.f7cf0878.pdf"
   },
   {
     "revision": "e55a939c884490a27d14a83a75a33321",
