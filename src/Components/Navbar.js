@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
+import Resume from '../Files/resume.pdf';
 
 const Navbar = () => {
 
@@ -21,6 +21,8 @@ const Navbar = () => {
                 <NavLink onClick={() => scrollTo('aboutId')}>About</NavLink>
                 <NavLink onClick={() => scrollTo('experienceId')}>Experience</NavLink>
                 <NavLink onClick={() => scrollTo('projectId')}>Projects</NavLink>
+                <a style={{"color": "white", "text-decoration": "none"}} href ={Resume} target ="_blank"><NavLink>Resume</NavLink></a>
+
             </StyledNavBar>
         </div>
     );
