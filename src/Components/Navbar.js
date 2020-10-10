@@ -21,6 +21,7 @@ const Navbar = () => {
                 <NavLink onClick={() => scrollTo('aboutId')}>About</NavLink>
                 <NavLink onClick={() => scrollTo('experienceId')}>Experience</NavLink>
                 <NavLink onClick={() => scrollTo('projectId')}>Projects</NavLink>
+                <NavLink onClick={() => scrollTo('notesId')}>Notes</NavLink>
                 <a style={{"color": "white", "text-decoration": "none"}} href ={Resume} target ="_blank"><NavLink>Resume</NavLink></a>
 
             </StyledNavBar>

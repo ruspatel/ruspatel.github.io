@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar.js';
 import About from './Components/About.js';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
+import Notes from './Components/Notes';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Project/>
       <Experience/>
+      <Notes/>
     </MainBox>
   );
 }
