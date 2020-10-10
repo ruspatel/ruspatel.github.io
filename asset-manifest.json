@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ruspatel.github.io/static/js/main.37d58bb1.chunk.js",
-    "main.js.map": "/ruspatel.github.io/static/js/main.37d58bb1.chunk.js.map",
+    "main.js": "/ruspatel.github.io/static/js/main.2de062e8.chunk.js",
+    "main.js.map": "/ruspatel.github.io/static/js/main.2de062e8.chunk.js.map",
     "runtime-main.js": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js",
     "runtime-main.js.map": "/ruspatel.github.io/static/js/runtime-main.6d24a601.js.map",
     "static/js/2.b2e6d629.chunk.js": "/ruspatel.github.io/static/js/2.b2e6d629.chunk.js",
     "static/js/2.b2e6d629.chunk.js.map": "/ruspatel.github.io/static/js/2.b2e6d629.chunk.js.map",
     "index.html": "/ruspatel.github.io/index.html",
-    "precache-manifest.5fdd2d7fec5382fa35af766451379249.js": "/ruspatel.github.io/precache-manifest.5fdd2d7fec5382fa35af766451379249.js",
+    "precache-manifest.a60fd34d81ebfef2d2b658e3ae6974df.js": "/ruspatel.github.io/precache-manifest.a60fd34d81ebfef2d2b658e3ae6974df.js",
     "service-worker.js": "/ruspatel.github.io/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/ruspatel.github.io/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.b2e6d629.chunk.js.LICENSE.txt": "/ruspatel.github.io/static/js/2.b2e6d629.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.6d24a601.js",
     "static/js/2.b2e6d629.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.37d58bb1.chunk.js"
+    "static/js/main.2de062e8.chunk.js"
   ]
 }
