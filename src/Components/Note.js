@@ -3,18 +3,22 @@ import {Element} from 'react-scroll';
 import {Header} from './CommonComponents';
 import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
-import readMe from './README.md';
+// import readMe from './README.md';
 import { useParams, Link } from 'react-router-dom';
 
 
 
-const Notes = () => {
+const Note = () => {
+    let params = useParams();
     const [file, setFile] = useState({file: null});
+
     useEffect(() => {
-        fetch(readMe).then((response) => response.text()).then((text) => {
+        const filePath = require(`./${params.noteName}`)
+        console.log('the param is ', params.noteName);
+        fetch(filePath).then((response) => response.text()).then((text) => {
             setFile({file: text})
         }) 
-    })
+    },[params])
 
     return(
         <div>
@@ -23,10 +27,7 @@ const Notes = () => {
                     <Header style={{"margin-top": "75px"}}>Notes</Header>
             </Element>
                 <h1>Coming Soon ...</h1>
-                <h1>
-                    <Link to = '/ruspatel.github.io/notes/README.md'>Markdown hello world</Link>
-                </h1>
-                {/* <ReactMarkdown source={file.file} /> */}
+                <ReactMarkdown source={file.file} />
         </NotesBox>
 
         </div>
@@ -38,4 +39,4 @@ const NotesBox = styled.div`
     margin: auto;
 `;
 
-export default Notes;
+export default Note;

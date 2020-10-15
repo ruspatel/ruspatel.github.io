@@ -6,16 +6,26 @@ import About from './Components/About.js';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
 import Notes from './Components/Notes';
+import Note from './Components/Note';
+
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 
 function App() {
   return (
     <MainBox>
-      <Navbar/>
-      <About/>
-      <Project/>
-      <Experience/>
-      <Notes/>
+      <Router>
+        <Route path="/ruspatel.github.io" exact>
+          <Navbar/>
+          <About/>
+          <Project/>
+          <Experience/>
+          <Notes/>
+        </Route>
+        <Route path="/ruspatel.github.io/notes/:noteName">
+          <Note/>
+        </Route>
+      </Router>
     </MainBox>
   );
 }
